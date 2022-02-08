@@ -1,0 +1,33 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "identity": {
+  "principalId": "abc81e93-d65e-4a3a-90f6-6c1836b6a916",
+  "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+  "type": "SystemAssigned"
+ },
+ "properties": {
+  "displayName": "ISO 27001:2013",
+  "policyDefinitionId": "/providers/Microsoft.Authorization/policySetDefinitions/89c6cddc-1c73-4ac1-b19c-54d1a15a42f2",
+  "scope": "/subscriptions/6322e1e7-d9a4-4a01-91b9-63ce76ba1066",
+  "notScopes": [],
+  "parameters": {},
+  "metadata": {
+   "assignedBy": "Shiri Hochhauser",
+   "parameterScopes": {
+    "listOfResourceTypesWithDiagnosticLogsEnabled": "/subscriptions/6322e1e7-d9a4-4a01-91b9-63ce76ba1066"
+   },
+   "createdBy": "ef444c34-a29d-4d96-a00e-7c96de377fc1",
+   "createdOn": "2022-02-08T16:58:33.5663401Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "enforcementMode": "DoNotEnforce"
+ },
+ "id": "/subscriptions/6322e1e7-d9a4-4a01-91b9-63ce76ba1066/providers/Microsoft.Authorization/policyAssignments/c8edc8b5aa804af39636dac2",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "c8edc8b5aa804af39636dac2",
+ "location": "eastus"
+}
